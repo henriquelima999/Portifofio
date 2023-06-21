@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 3px;    
+    color: #cdcbcb;
+    text-align: center;
+    background-color: #313131;
+}
+
+/*imagem*/
+img{
+    border-radius: 50%;
+    width: 15%; 
+}
+
+/*corpo*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #313131;
+}
+
+/*botoes*/
+#informacoes{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+    height: 60px;
+}
+
+#informacoes:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#objetivos{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;    
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+    height: 60px;
+}
+
+#objetivos:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#formacao{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+    height: 60px;
+}
+
+#formacao:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#qualificacoes{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+    height: 60px;
+}
+
+#qualificacoes:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#experiencia{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+    height: 60px;
+}
+
+#experiencia:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+
+/*divs*/
+#info{
+    display: none;
+}
+
+#obj{
+    display: none;
+}
+
+#form{
+    display: none;
+}
+
+#qualif{
+    display: none;
+}
+
+#exp{
+    display: none;
+}
+
+
+
+
+
+
